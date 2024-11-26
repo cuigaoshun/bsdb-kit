@@ -1,4 +1,4 @@
-module bsdb-kit
+module github.com/Alan0532/bsdb-kit
 
 go 1.22.7
 
