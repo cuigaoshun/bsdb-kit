@@ -1,7 +1,7 @@
 syntax = "proto3";
-package kratos.api;
+package conf;
 
-option go_package = "bsdb-kit/internal/conf;conf";
+option go_package = "bsdb-kit/config/conf;conf";
 
 import "google/protobuf/duration.proto";
 
@@ -36,6 +36,6 @@ message Data {
     google.protobuf.Duration read_timeout = 3;
     google.protobuf.Duration write_timeout = 4;
   }
-  Database database = 1;
-  Redis redis = 2;
+  map<string, Database> database = 1;
+  map<string, Redis> redis = 2;
 }

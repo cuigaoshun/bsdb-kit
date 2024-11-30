@@ -1,0 +1,9 @@
+syntax = "proto3";
+package constant;
+
+option go_package = "bsdb-kit/constant/constant;constant";
+
+enum DataBase {
+  // User
+  User = 0 ;
+}
