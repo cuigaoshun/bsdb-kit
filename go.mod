@@ -3,11 +3,11 @@ module github.com/cuigaoshun/bsdb-kit
 go 1.23.3
 
 require (
+	entgo.io/ent v0.14.1
 	github.com/go-kratos/kratos/v2 v2.8.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20240528184218-531527333157
 	google.golang.org/grpc v1.65.0
 	google.golang.org/protobuf v1.34.1
-	entgo.io/ent v0.14.1
 )
 
 require (
